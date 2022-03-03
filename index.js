@@ -41,22 +41,22 @@ function setTime(){
     var uniquetime = new Date().getHours();
 
     if(i==uniquetime){
-        document.getElementById('ImagesAsPerTiming').style.backgroundImage = "url(./Images/morning.png)";
+        document.getElementById('ImagesAsPerTiming').style.backgroundImage = "url(./images/morning.png)";
         document.getElementById('gm-msg').innerText = "GOOD MORNING! WAKE UP";
         document.getElementById('right-comment').innerText = "GRAB SOME HEALTHY BREAKFAST!!!";
     }
     if(j==uniquetime){
-        document.getElementById('ImagesAsPerTiming').style.backgroundImage= "url(./Images/lunch.png)";
+        document.getElementById('ImagesAsPerTiming').style.backgroundImage= "url(./images/lunch.png)";
         document.getElementById('gm-msg').innerText= "GOOD AFTERNOON !! TAKE SOME SLEEP";
         document.getElementById('right-comment').innerText= "LET'S HAVE SOME LUNCH !!";
     }
     if(k==uniquetime){
-        document.getElementById('ImagesAsPerTiming').style.backgroundImage="url(./Images/evening_image.png)";
+        document.getElementById('ImagesAsPerTiming').style.backgroundImage="url(./images/evening_image.png)";
         document.getElementById('gm-msg').innerText= "GOOD EVENING !!";
         document.getElementById('right-comment').innerText= "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
     }
     if(l==uniquetime){
-        document.getElementById('ImagesAsPerTiming').style.backgroundImage="url(./Images/night_image.png)";
+        document.getElementById('ImagesAsPerTiming').style.backgroundImage="url(./images/night_image.png)";
         document.getElementById('gm-msg').innerText= "GOOD NIGHT !!";
         document.getElementById('right-comment').innerText=  "CLOSE YOUR EYES AND GO TO SLEEP";
     }
